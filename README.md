@@ -44,7 +44,7 @@ go get -u github.com/Squirrel-Network/gobotapi
     <a href="https://github.com/Squirrel-Network/GoBotApiCompiler">
         <img src="logo2.png" alt="gopher logo" />
     </a>
-    <br><br>
+    <br>
     <br>
     <a href="https://github.com/Squirrel-Network/GoBotApi/releases">
         Releases
