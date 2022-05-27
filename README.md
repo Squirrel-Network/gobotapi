@@ -27,7 +27,7 @@ In addition to the official API, this Framework also provides some **high-level
 functions** that make it easier to use the API.
 
 > The Telegram API scheme depends on your build, but if you don't want to compile by your self you
-can use the package compiled from [pkg.go.dev/Squirrel-Network/gobotapi](https://pkg.go.dev/Squirrel-Network/gobotapi).
+can use the package compiled from [pkg.go.dev/github.com/Squirrel-Network/gobotapi](https://pkg.go.dev/github.com/Squirrel-Network/gobotapi).
 
 ## How to install?
 Here's how to add the GoBotApi Framework to your project, the command are given below:
