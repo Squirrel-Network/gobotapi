@@ -11,16 +11,16 @@ func main() {
 	// Add listener when a user uses the bot inline
 	client.OnInlineQuery(func(update types.InlineQuery) {
 		_, err := client.Invoke(&methods.AnswerInlineQuery{
-			InlineQueryId: update.Id,
+			InlineQueryID: update.ID,
 			Results: []types.InlineQueryResult{
 				types.InlineQueryResultArticle{
-					Id: update.Id,
+					ID: update.ID,
 					InputMessageContent: types.InputTextMessageContent{
 						MessageText: "Firefox is just the chinese name (紅帕達) of Red Panda.\n\nKnow more about Red Panda: https://en.wikipedia.org/wiki/Red_Panda",
 					},
 					Title:       "Firefox is a Red Panda!",
 					Description: "Read More!",
-					ThumbUrl:    "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png",
+					ThumbURL:    "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png",
 				},
 			},
 		})
